@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+ul {
+    width: 100%;
+    margin-left: 20vw;
+    list-style: none;
+    display: flex;
+}
+.LOTTO {
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.first{
+    font-family: 'Song Myung', serif;
+    font-size: 35px;
+    color: ivory;
+}
+.resetbtn{
+    font-family: 'Black Han Sans', sans-serif;
+    width: 17rem;
+}
+.box{
+    vertical-align: top;
+    text-align: center;
+    height: 168px;
+    background-color: white;
+}
+.radious-orange {
+    background-color: orange;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 57px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.radious-red {
+    background-color: rgb(241, 141, 128);
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.radious-green {
+    background-color: rgb(107, 206, 158);
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.radious-yellow {
+    background-color: rgb(252, 196, 61);
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.radious-blue {
+    background-color: rgb(140, 198, 231);
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.radious-gray {
+    background-color: gray;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.radious-plus {
+    border-radius: 50%;
+    color: #808080;
+    font-size: 88px;
+    font-weight: 600;
+}
+.radious-black {
+    background-color: rgb(167, 162, 222);
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.square{
+    bottom: 130px;
+    vertical-align: top;
+    left: 1080px;
+    position: relative;
+    width: 220px;
+    height: 500px;
+    border-radius: 5%;
+    background-color: #434f78;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .LOTTO{
+        font-size: 80px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .box{
+        position: absolute; 
+        top: 50%;
+    }
+    .resetbtn{
+        margin-top: 1rem;
+        font-family: 'Black Han Sans', sans-serif;
+        width: 17rem;
+        height: 8rem;
+        font-size: 65px;
+    }
+}
